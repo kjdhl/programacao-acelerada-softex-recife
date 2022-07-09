@@ -1,5 +1,0 @@
-Após a chegada dos 11 alunos fazendo assim a turmar possuir 36 alunos, o professor organizou a turma do seguinte modo
-I) Cada fila e cada coluna possuem uma quantidade par de alunos com o mesmo gosto por disciplina.
-II)Duas linhas consecutivas possuem um total de 6 alunos com um mesmo gosto por disciplina, seguindo a mesma lógica para colunas consecutivas
-
-Assim após retornar de sua ausência ele pôde ver que uma linha e uma coluna possuíam valores ímpares de alunos com gostos iguais, regra (I), em seguida ele observou a linha consecutiva a esta com valore impar de gosto de disciplina, regra (II), assim ele pôde facilmente identificar a cadeira onde houve a troca e qual foi a novo disciplina escolhida pelo aluno
