@@ -1,0 +1,53 @@
+//variaveis
+caracter:- Nome
+caracter: Endereço
+caracter: Cidade
+inteiro: CPF
+inteiro: RG
+inteiro: Idade
+caracter: Nome do pai
+caracter: Nome da mãe
+real: Peso
+real: Renda bruta
+
+
+//lendo os dados do usuario	
+escreva (“digite o seu nome: “)
+leia (Nome)
+
+escreva (“digite o seu endereço: “)
+leia (Endereço)
+
+escreva (“digite a sua cidade: “)
+leia (Cidade)
+
+escreva (“digite o seu CPF: “)
+leia (CPF)
+
+escreva (“digite a sua idade: “)
+leia (Idade)
+
+escreva (“digite o nome do seu pai: “)
+leia (Nome do pai)
+
+escreva (“digite o nome da sua mãe:“)
+leia (Nome da mãe)
+
+escreva (“digite o seu peso: “)
+leia (Peso)
+
+escreva (“digite a sua renda bruta: “)
+leia (Renda bruta)
+
+
+//apresentando os dados coletados
+escreva (“O seu nome é  “,  Nome)
+escreva (“O seu endereço é  “,  Endereço)
+escreva (“A sua cidade é  “,  Cidade)
+escreva (“O seu CPF é  “,  CPF)
+escreva (“O seu RG é  “,  RG)
+escreva (“A sua idade é  “,  Idade)
+escreva (“O nome do seu pai é  “,  Nome do pai)
+escreva (“O nome da sua mãe é  “,  Nome da mãe)
+escreva (“O seu Peso é  “,  Peso)
+escreva (“A sua renda bruta é  “,  Renda Bruta)
