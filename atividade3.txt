@@ -1,0 +1,14 @@
+Variáveis:
+Nome : recebe caracteres
+CPF: recebe um valor inteiro
+RG: recebe um valor inteiro
+Altura: recebe um valor real
+Endereço: recebe caracteres
+
+------------------------------------------------------------
+
+Nome <- José Almeida da Silva
+CPF <- 12345678900
+RG <-  9517530
+Altura <- 1,78
+Endereço <- Rua A, 380 – Centro – Recife/PE
