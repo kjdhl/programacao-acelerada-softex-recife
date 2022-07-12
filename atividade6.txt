@@ -38,7 +38,7 @@ fimenquanto
 
 total<-aprovadosA +  aprovadosB + aprovadosC + aprovadosD
 
-escreva("Foram aprovados um total de ", total, "de alunos, sendo:")
+escreva("Foram aprovados um total de ", total, " alunos, sendo:")
 escreva( aprovadosA, "na turma A")
 escreva( aprovadosB, "na turma B")
 escreva( aprovadosC, "na turma C")
