@@ -1,0 +1,51 @@
+É terrestre?sim!:
+	Cabe apenas uma pessoa?sim!:
+			 É pesado? sim!:
+				  É um trator!
+			não!:
+				 É uma bicicleta!
+	não!:
+		Usa capacete?sim!:
+			É uma moto!
+		não!:
+			Usa trilho?sim!:
+				É um trem!
+			não!:
+	
+				É alto?sim!
+					Usa carroceria?sim!:
+						É um caminhão!
+					não!:
+						É um ônibus!
+				não!:		
+					É um carro!
+É aéreo?sim!:
+	Precisa pular?sim!:
+		É um asa delta!
+	não!:
+		É devagar?sim!:
+			É um balão!
+		não!:
+			Possui asas fixas? sim!:
+				É um avião!
+			não!:
+				É um helicópeto!
+
+É aquático?sim!:
+	É coberto d'agua?sim!:
+		É um submarino!
+	não!:
+		Possui vela?sim!:
+			É um barco!
+		não!:
+			É alto?sim!:
+				É um navio!
+			não!:
+				É uma lancha
+			
+
+
+					
+		
+		
+	
