@@ -6,8 +6,8 @@ nota0 <-0		//controle da maior nota
 
 aprovadosA <- 0	//	Controle de	
 aprovadosB <- 0	//	 aprovados
-aprovadosC <- 0	//                por
-aprovadosD <- 0	//              turma
+aprovadosC <- 0	//          por
+aprovadosD <- 0	//         turma
 
 enquanto (turma < 4) faça
 	enquanto(alunos < 25) faça
