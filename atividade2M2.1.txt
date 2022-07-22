@@ -1,0 +1,16 @@
+quantRodas = int(input('Quantidade de rodas do veículo: '))
+pesoBruto = float(input('Peso bruto do veículo: '))
+quantPessoas = int(input('Quantidade de pessoas no veículo: '))
+
+if(quantRodas >= 2 and quantRodas <= 3):
+    print('Veículo A')
+elif(quantRodas == 4 and quantPessoas <=8 and pesoBruto<=3500):
+    print('Veículo B')
+elif(quantRodas >= 4 and (pesoBruto>3500 and pesoBruto<6000)):
+    print('Veículo C')
+elif(quantRodas >= 4 and quantPessoas > 8):
+    print('Veículo D')
+elif(quantRodas >= 4 and pesoBruto > 6000):
+    print('Veículo E')
+else:
+    print('Veículo não identificado')
