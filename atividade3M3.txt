@@ -1,5 +1,0 @@
-int *variavel;
-variavel = (int*)malloc(1*sizeof(int));
-varivael = (int*)realloc(varivel, 22*sizeof(int));
-
-free():void free(void *variavel;)
