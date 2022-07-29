@@ -1,0 +1,3 @@
+Exemplos de grafos
+Grafos não direcionados: relação entre participantes de uma rede social
+Grafos direcionados: a representaçãode um mapa e uma rota definida por um GPS
