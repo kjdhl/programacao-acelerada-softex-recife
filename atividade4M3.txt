@@ -1,0 +1,42 @@
+class complexo:
+
+    def __init__(self, real, imaginario):
+        self.real = real
+        self.imaginario = imaginario
+
+    def somar(self, number):
+        return (complex(self.real, self.imaginario) + complex(number.real, number.imaginario))
+
+    def subtrair(self, number):
+        return (complex(self.real, self.imaginario) - complex(number.real, number.imaginario))
+
+    def multiplicar(self, number):
+        return (complex(self.real, self.imaginario) * complex(number.real, number.imaginario))
+
+    def dividir(self, number):
+        return (complex(self.real, self.imaginario) / complex(number.real, number.imaginario))
+
+
+'''   
+
+################################################################################################################################                      
+#definindo o numero:
+num1 = complexo(2,1)
+num2 = complexo(0,-1)
+num3 = complexo(-1,2)
+
+num1.OPERAÇÃO(PARAMETRO= outro numero complexo para a operção).real      #retorna a parte real da operação
+     .somar()                                                                                                      .imag     #retorna a parte imaginaria da operação 
+     .subtrair()                                                                                                                 #retorna a parte real e imaginaria do resultado (a +bj)   
+     .multiplicar()
+     .dividir()        
+                                               
+Ex.:
+num1.somar(num2).real         #retorna a parte real da soma
+num1.somar(num2).img         #retorna a parte imaginaria da soma 
+num1.somar(num2)               #retorna a parte real e imaginaria do resultado (a +bj)   
+                                                    
+################################################################################################################################
+
+'''
+
