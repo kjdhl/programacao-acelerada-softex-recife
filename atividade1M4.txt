@@ -1,0 +1,39 @@
+OBJETOS MATERIAIS:
+
+Classe cachorro
+raça: Caractere
+nome: Caractere
+idade: Inteiro
+Metodo correr()
+Metodo comer()
+Metodo dormir()
+
+Classe celular
+medelo: Caractere
+marca: Caractere
+qualidadeDaCamera: Real
+Metodo ligar()
+Metodo tirarFoto()
+Metodo desligar()
+
+OBJETOS ABSTRATOS:
+
+Classe julgamento
+juiz: Caractere
+quantidadeDeTestemunhas: Inteiro
+numeroDoProcesso: Inteiro
+Metodo condenar()
+Metodo absolver()
+Metodo ouvirTestemunhas()
+
+Classe transaçãoBancaria
+codigoDoBanco: Inteiro
+saldo: Real
+nomeDoTitular: Caractere
+Metodo sacar()
+Metodo transferir()
+Metodo depositar()
+
+
+ 
+
