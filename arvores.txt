@@ -1,0 +1,58 @@
+
+Lista1 = 45,20,30,60,81,97,100,7,8,4
+Lista original:
+		
+
+				45
+			           /    \
+			        20    60
+			       /    \       \
+			     7     30     81
+			   /    \		\
+			 4      8	            97
+					   \
+					  100		
+				
+
+Adicionado elemento = 1:
+Removendo elemento = 20:
+RESULTADO:
+
+
+				45
+			           /    \
+			         8      60
+			       /    \       \
+			     7    30      81
+			   /   		\
+			 4     	            97
+			/		   \
+		          1		  100	
+
+
+
+
+Lista2 = 15,6,18,3,7,16,20,4
+Lista original:
+
+			
+			            15
+			          /      \
+			       6        18
+			      /  \	     /   \
+                                       3    7    16   20
+                                        \
+                                         4
+
+Adicionando elemento = 50
+Removendo elemento =  4
+RESULTADO:
+    				15
+			          /      \
+			       6        18
+			      /  \	     /   \
+                                       3    7    16   20
+					\
+					50
+                                        
+                                         
