@@ -1,0 +1,25 @@
+classe carro
+	privado valor: real
+  	privado nome: caractere
+	publico metodo setValor(real x)
+	    se (x < 0)
+	        escreva('Valor Invalido!')
+	    senao
+	        valor  = x     
+	fimmetodo
+	publico metodo getValor
+	    retorne valor
+	fimmetodo
+
+	publico metodo setNome()
+	    (i:caractere)
+	    nome = i 
+	fimmetodo
+	publico metodo getNome
+	    retorne nome
+	fimmetodo
+	
+
+carro1 = carro
+carro1.setValor(8500000)
+carro1.setNome("F4000")
