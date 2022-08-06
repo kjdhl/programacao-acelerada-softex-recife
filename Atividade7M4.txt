@@ -1,0 +1,4 @@
+         
+	 O padrão adpter é um padrão de projeto estrutural que visa propor soluções flexíveis para composição de classes
+e objetos para formar estruturas maiores esse padrão é utilizado quando se necessita converter a interface de uma classe
+por outra esperada pelos clientes, fazendo assim que classes com interfaces incompativeis trabalhem em conjunto.
