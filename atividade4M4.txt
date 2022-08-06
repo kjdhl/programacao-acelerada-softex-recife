@@ -1,0 +1,14 @@
+packge com.banco.login;
+	public class usuario{
+	     public String usuario;
+	     public String senha;
+	}
+	
+
+package com.banco.contas;
+	public class banco{
+	     public String nome;
+	     public String endereco;
+	     
+	}
+
