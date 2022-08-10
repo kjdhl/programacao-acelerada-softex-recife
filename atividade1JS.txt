@@ -1,0 +1,4 @@
+o botão de pesquisa do google: 
+quando o ussuario clica em pesquisar, a informação desejada é passada por JavaScript para os servidores responsaveis pela entrega da pesquisa
+o botão de login de um site:
+quando o usuario clicar para fazer login em um site seu usuario e senha é verificado no banco de dados do site para saber se estão corretos, esse processo é feito pelo JavaScript
