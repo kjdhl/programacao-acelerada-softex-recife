@@ -1,0 +1,2 @@
+O padrão de projeto strategy : permite que uma família de algoritmos seja utilizada de modo independente e seletivo, é viavel qunado há muitas classes relacionadas que diferem apenas no seu comportamento.
+Esse padrão ermite reuso de famílias de algoritimos com funcionalidades comuns entretanto aumenta o número de objetos no sistema.
