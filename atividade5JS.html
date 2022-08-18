@@ -1,0 +1,63 @@
+
+<script>
+
+    function calculadora(num1,num2, op){
+        let resultado
+        switch (op){
+            case "+":
+                resultado = num1 + num2
+                alert(num1+op+num2+ " = " +resultado)
+                break
+            case "-":
+                resultado = num1-num2
+                alert(num1+op+num2+ " = " +resultado)
+                break
+            case "/":
+                if(num2 == 0){
+                    alert("Divisão por 0 invalida")
+                    break
+                }
+                else{
+                    resultado = num1/num2
+                    alert(num1+op+num2+ " = " +resultado)
+                    break
+                }
+            case "*":
+                resultado = num1*num2
+                alert(num1+op+num2+ " = " +resultado)
+                break
+            case "**":
+                resultado = num1**num2
+                alert(num1+op+num2+ " = " +resultado)
+                break
+            case "%":
+                resultado = num1%num2
+                if(resultado == 0){
+                    alert(num1+op+num2+ " = " +resultado)
+                    break
+                }else{
+                    alert(num1+op+num2+ " = " +(num1-resultado)+ "  Resto da divisão= " +resultado)
+                    break
+
+                }
+        }
+
+    }
+    
+    do{    
+        var num1 = parseFloat(prompt("operando 1: "));
+        var num2 = parseFloat(prompt("operando 2: "));
+        do{
+            var op = prompt("escolha o operador:\n(+):soma\n(-)subtração\n(/)divisão\
+            \n(*)multiplicação\n(**)potencia\n(%)divisão inteira") 
+
+        }while(op!="+"&&op!="-"&&op!="/"&&op!="*"&&op!="**"&&op!="%")
+        
+        calculadora(num1,num2,op)
+
+        var aux = prompt("Digite 0 para uma nova operação ou qualquer outra tecla para sair")
+    }while(aux == 0)
+
+
+
+</script>
