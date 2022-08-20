@@ -1,0 +1,33 @@
+<script>
+
+var aux = prompt("Digite 1 para calcular a media e a situação\nDigite 2 para saber a nota 3 necessaria para passar.");
+
+switch(aux){
+	case "1":
+   		var nota1 = parseFloat(prompt("Nota 1:"));
+   		var nota2 = parseFloat(prompt("Nota 2:"));
+   		var nota3 = parseFloat(prompt("Nota 3:"));
+
+   		//Condição para a aprovação: MEDIA >=7
+   		var media = (nota1+nota2+nota3);
+   		media /=3;
+   		media>=7? alert("Aluno Aprovado, Media: "+ media+"!") :alert("Aluno reprovado, Media: "+media+"!");
+   		break;
+    
+	case "2":
+  		var nota1_ = parseFloat(prompt("Nota 1:"));
+    		var nota2_ = parseFloat(prompt("Nota 2:"));
+    		//Condição para a aprovação: MEDIA >=7
+    		var media_ = (nota1_+nota2_)/3;
+    		media_ = 7 - media_;
+    		media_ *=3;
+    		alert("A nota mínima necessaria para garantir a aprovação é "+media_+"!");
+    		break;
+
+	default:
+  		alert("Opção invalida");
+   		break;
+    
+
+}
+</script>
