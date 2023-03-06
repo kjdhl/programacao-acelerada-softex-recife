@@ -1,0 +1,45 @@
+REQUISIÇÃO
+
+POST /dados HTTP/1.1
+Host: http://www.minhaempresa.com.br
+Content-Type: application/soap+xml; charset=utf-8
+Content-Length: 200
+
+<?xml version="1.0"?>
+<soap:Envelope
+xmlns:soap="http://www.minhaempresa.com.br">
+ 
+<soap:Body xmlns:m="http://xmlns:soap=http://www.minhaempresa.com.br/dados">
+  <m:GetDados>
+    <m:dados>nome</m:dados>
+    <m:dados>endereco</m:dados>
+    <m:dados>numero</m:dados>
+  
+  <m:GetDados>
+</soap:Body>
+ 
+</soap:Envelope>
+
+
+
+RESPOSTA
+
+HTTP/1.1 200 OK
+Content-Type: application/soap+xml; charset=utf-8
+Content-Length: 200
+ 
+
+<?xml version="1.0"?>
+<soap:Envelope
+xmlns:soap="http://www.minhaempresa.com.br">
+ 
+<soap:Body xmlns:m="http://xmlns:soap=http://www.minhaempresa.com.br/dados">
+  <m:GetDadosResponse>
+    <m:dados>karlos</m:dados>
+    <m:dados>rua-01</m:dados>
+    <m:dados>12345678</m:dados>
+  
+    <m:GetDadosResponse>
+</soap:Body>
+ 
+</soap:Envelope>
